@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOL AL KABEER | Independent Technology Advisory</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Added missing link to index.css -->
+    <link rel="stylesheet" href="/index.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#0f172a', 
+                            slate: '#334155', 
+                            light: '#f8fafc', 
+                            accent: '#2563eb', 
+                            accentHover: '#1d4ed8', 
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-slate-800 bg-white antialiased selection:bg-brand-accent selection:text-white">
+
+<!-- HEADER -->
+<header id="main-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white border-b border-gray-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="flex justify-between items-center h-24">
+            
+            <!-- Brand & Logo -->
+            <div class="flex-shrink-0 flex items-center z-50">
+                <a href="/" class="flex items-center gap-3 transition-opacity hover:opacity-90">
+                    <div class="bg-white p-1 rounded-md flex items-center justify-center">
+                        <img src="https://solalkabeer.in/assets/images/sal-logo-final-20261010.png" alt="SOL AL KABEER Logo" class="h-12 w-auto object-contain" onerror="this.onerror=null; this.src='https://placehold.co/150x50/ffffff/0f172a?text=SOL+AL+KABEER&font=montserrat';">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex items-center space-x-2">
+                <!-- What We Do Mega Menu -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1.5 px-4 py-2 text-sm font-bold text-slate-700 hover:text-blue-800 transition-colors" aria-expanded="false">
+                        What We Do
+                        <svg class="w-4 h-4 text-slate-400 group-hover:text-blue-800 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <!-- Dropdown Panel -->
+                    <div class="absolute top-full left-1/2 -translate-x-1/2 pt-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 w-[800px] z-50">
+                        <div class="bg-white rounded-[16px] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)] border border-gray-100 p-8 relative overflow-hidden">
+                            <div class="grid grid-cols-2 gap-x-8 gap-y-6">
+                                <a href="/ai-genai-strategy" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">AI & GenAI Strategy</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Define enterprise AI capabilities and operational roadmaps.</p>
+                                    </div>
+                                </a>
+                                <a href="/enterprise-architecture" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Enterprise Architecture</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Design scalable platforms for business transformation.</p>
+                                    </div>
+                                </a>
+                                <a href="/customer-experience" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Customer Experience</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Elevate customer journeys and digital touchpoints.</p>
+                                    </div>
+                                </a>
+                                <a href="/contact-center-transformation" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Contact Center Transformation</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Modernize customer service with intelligent platforms.</p>
+                                    </div>
+                                </a>
+                                <a href="/ccaas-transformation" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">CCaaS Transformation</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Migrate to scalable cloud contact center solutions.</p>
+                                    </div>
+                                </a>
+                                <a href="/conversational-ai" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Conversational AI</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Deploy voice AI, chatbots, and automation tools.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Industries Mega Menu -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1.5 px-4 py-2 text-sm font-bold text-slate-700 hover:text-blue-800 transition-colors" aria-expanded="false">
+                        Industries
+                        <svg class="w-4 h-4 text-slate-400 group-hover:text-blue-800 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <!-- Dropdown Panel -->
+                    <div class="absolute top-full left-1/2 -translate-x-1/2 pt-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 w-[800px] z-50">
+                        <div class="bg-white rounded-[16px] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)] border border-gray-100 p-8 relative overflow-hidden">
+                            <div class="grid grid-cols-2 gap-x-8 gap-y-6">
+                                <a href="/banking-insurance" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Banking & Insurance</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Architecture and CX in regulated environments.</p>
+                                    </div>
+                                </a>
+                                <a href="/telecommunications" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Telecommunications</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Enterprise architecture and CX modernization.</p>
+                                    </div>
+                                </a>
+                                <a href="/technology-software" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Technology & Software</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Platform strategy and AI adoption roadmaps.</p>
+                                    </div>
+                                </a>
+                                <a href="/healthcare" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Healthcare</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Technology decisions where trust and scale matter.</p>
+                                    </div>
+                                </a>
+                                <a href="/retail-manufacturing" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Retail & Manufacturing</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Digital operations and AI transformation priorities.</p>
+                                    </div>
+                                </a>
+                                <a href="/travel-energy-government" class="flex items-start p-3 -m-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                                    <div class="flex-shrink-0 p-2.5 rounded-lg bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white transition-colors">
+                                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h4 class="text-sm font-bold text-slate-900 group-hover/item:text-blue-800 transition-colors">Travel, Energy & Gov</h4>
+                                        <p class="mt-1 text-[13px] text-slate-500 leading-relaxed">Advisory for complex, multi-stakeholder environments.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Who We Are (Dropdown) -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1.5 px-4 py-2 text-sm font-bold text-slate-700 hover:text-blue-800 transition-colors" aria-expanded="false">
+                        Who We Are
+                        <svg class="w-4 h-4 text-slate-400 group-hover:text-blue-800 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <!-- Dropdown Panel -->
+                    <div class="absolute top-full left-0 pt-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 w-56 z-50">
+                        <div class="bg-white rounded-[12px] shadow-[0_15px_35px_-10px_rgba(0,0,0,0.08)] border border-gray-100 py-3 relative overflow-hidden">
+                            <a href="/who-we-are.html" class="block px-6 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50 hover:text-blue-800 transition-colors">Our Story</a>
+                            <a href="/our-team.html" class="block px-6 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50 hover:text-blue-800 transition-colors">Leadership</a>
+                            <a href="/careers.html" class="block px-6 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50 hover:text-blue-800 transition-colors">Careers</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Static Links -->
+                <a href="/insights" class="px-4 py-2 text-sm font-bold text-slate-700 hover:text-blue-800 transition-colors">
+                    Insights
+                </a>
+                
+            </nav>
+
+            <!-- CTA (Desktop) -->
+            <div class="hidden lg:flex items-center z-50">
+                <a href="/contact" class="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold rounded-full text-white bg-blue-800 hover:bg-blue-900 transition-all duration-300 shadow-sm hover:shadow-md">
+                    Talk to an Advisor
+                </a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="flex items-center lg:hidden z-50">
+                <button type="button" id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-slate-700 hover:text-blue-800 hover:bg-slate-100 focus:outline-none transition-colors" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg id="icon-menu" class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Panel -->
+    <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-100 absolute top-[96px] left-0 w-full shadow-lg h-[calc(100vh-96px)] overflow-y-auto">
+        <div class="px-4 pt-2 pb-8 space-y-1">
+            <a href="/" class="block px-3 py-4 text-base font-bold text-slate-900 border-b border-gray-100 hover:text-blue-800">Home</a>
+            
+            <!-- Mobile Accordion: What We Do -->
+            <div class="mobile-accordion border-b border-gray-100">
+                <button class="flex justify-between items-center w-full px-3 py-4 text-base font-bold text-slate-900 focus:outline-none accordion-btn hover:text-blue-800 transition-colors">
+                    What We Do
+                    <svg class="w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                </button>
+                <div class="accordion-content hidden px-3 pb-4 space-y-4">
+                    <a href="/ai-genai-strategy" class="block text-sm font-medium text-slate-600 hover:text-blue-800">AI & GenAI Strategy</a>
+                    <a href="/enterprise-architecture" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Enterprise Architecture</a>
+                    <a href="/customer-experience" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Customer Experience</a>
+                    <a href="/contact-center-transformation" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Contact Center Transformation</a>
+                    <a href="/ccaas-transformation" class="block text-sm font-medium text-slate-600 hover:text-blue-800">CCaaS Transformation</a>
+                    <a href="/conversational-ai" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Conversational AI</a>
+                </div>
+            </div>
+
+            <!-- Mobile Accordion: Industries -->
+            <div class="mobile-accordion border-b border-gray-100">
+                <button class="flex justify-between items-center w-full px-3 py-4 text-base font-bold text-slate-900 focus:outline-none accordion-btn hover:text-blue-800 transition-colors">
+                    Industries
+                    <svg class="w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                </button>
+                <div class="accordion-content hidden px-3 pb-4 space-y-4">
+                    <a href="/banking-insurance" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Banking & Insurance</a>
+                    <a href="/telecommunications" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Telecommunications</a>
+                    <a href="/technology-software" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Technology & Software</a>
+                    <a href="/healthcare" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Healthcare</a>
+                    <a href="/retail-manufacturing" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Retail & Manufacturing</a>
+                    <a href="/travel-energy-government" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Travel, Energy & Government</a>
+                </div>
+            </div>
+
+            <!-- Mobile Accordion: Who We Are -->
+            <div class="mobile-accordion border-b border-gray-100">
+                <button class="flex justify-between items-center w-full px-3 py-4 text-base font-bold text-slate-900 focus:outline-none accordion-btn hover:text-blue-800 transition-colors">
+                    Who We Are
+                    <svg class="w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                </button>
+                <div class="accordion-content hidden px-3 pb-4 space-y-4">
+                    <a href="/who-we-are.html" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Our Story</a>
+                    <a href="/our-team.html" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Leadership</a>
+                    <a href="/careers.html" class="block text-sm font-medium text-slate-600 hover:text-blue-800">Careers</a>
+                </div>
+            </div>
+
+            <a href="/insights" class="block px-3 py-4 text-base font-bold text-slate-900 border-b border-gray-100 hover:text-blue-800">Insights</a>
+            
+            <div class="pt-6 px-3 pb-6">
+                <a href="/contact" class="block w-full text-center px-6 py-3 text-base font-bold rounded-md text-white bg-blue-800 hover:bg-blue-900 transition-colors shadow-sm">
+                    Talk to an Advisor
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <section class="relative h-screen min-h-[600px] flex items-center justify-center">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1791635084214-1c2c13fb83e8?q=80&w=1331&auto=format&fit=crop" alt="Corporate Architecture" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-brand-navy/80 mix-blend-multiply"></div>
+            <!-- Subtle gradient for better text readability at the bottom -->
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/90 to-transparent"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20">
+            <div class="max-w-3xl">
+                <div class="reveal">
+                    <span class="text-brand-accent font-semibold tracking-wider uppercase text-sm mb-4 block">Strategic Advisory</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight mb-6 reveal reveal-delay-1">
+                    Independent Technology Advisory for Senior Leaders
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-200 mb-10 max-w-2xl font-light leading-relaxed reveal reveal-delay-2">
+                    Align business capabilities, technology architecture, platforms and roadmaps with strategic priorities. Vendor-neutral, executive-focused.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 reveal reveal-delay-3">
+                    <a href="#contact" class="inline-flex justify-center items-center px-8 py-3.5 border border-transparent text-base font-medium rounded-sm text-white bg-brand-accent hover:bg-brand-accentHover transition-colors shadow-lg shadow-brand-accent/30">
+                        Start an Executive Conversation
+                    </a>
+                    <a href="#methodology" class="inline-flex justify-center items-center px-8 py-3.5 border border-white/30 text-base font-medium rounded-sm text-white hover:bg-white/10 transition-colors backdrop-blur-sm">
+                        Explore Our Methodology
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="who-we-are" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="reveal">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-brand-navy tracking-tight mb-6">
+                        Navigating Complexity with Objective Clarity.
+                    </h2>
+                    <div class="w-20 h-1 bg-brand-accent mb-8"></div>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                        At SOL AL KABEER, we provide independent, vendor-neutral guidance to senior business and technology leaders. We bridge the gap between strategic intent and technological execution.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-brand-accent mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-slate-700"><strong>Vendor-Neutral:</strong> Unbiased recommendations focused solely on your business outcomes.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-6 w-6 text-brand-accent mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-slate-700"><strong>Executive-Focused:</strong> Advisory tailored for C-suite and senior leadership decision-making.</span>
+                        </li>
+                        <li class="flex items-start" id="methodology">
+                            <svg class="h-6 w-6 text-brand-accent mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-slate-700"><strong>SCALE™ Methodology:</strong> A proprietary framework to ensure architectural and operational resilience.</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-brand-accent font-medium hover:text-brand-navy transition-colors inline-flex items-center">
+                        Discover our approach
+                        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+                <div class="relative reveal reveal-delay-2 hidden lg:block">
+                    <!-- Image wrapper with subtle offset border for premium feel -->
+                    <div class="absolute inset-0 bg-brand-light transform translate-x-4 translate-y-4 border border-slate-200"></div>
+                    <img src="https://images.unsplash.com/photo-1791641555046-3de4478a7087?q=80&w=1170&auto=format&fit=crop" alt="Executive Discussion" class="relative z-10 w-full h-auto object-cover shadow-xl" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="what-we-do" class="py-24 bg-brand-light border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <span class="text-brand-accent font-semibold tracking-wider uppercase text-sm block mb-2">Core Services</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-brand-navy tracking-tight">Capabilities That Drive Transformation</h2>
+            </div>
+
+            <!-- DYNAMIC GRID CONTAINER (JS Populates this from data.json) -->
+            <div id="dynamic-services-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- A loading skeleton can be placed here while JSON fetches -->
+                <div class="col-span-3 text-center py-10 text-slate-500">Loading services...</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16 reveal">
+                <span class="text-brand-accent font-semibold tracking-wider uppercase text-sm block mb-2">Areas of Expertise</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-brand-navy tracking-tight max-w-2xl">Tailored Advisory for Complex Environments</h2>
+            </div>
+
+            <div id="dynamic-industries-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="col-span-full text-center py-10 text-slate-500">Loading industries...</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-brand-navy relative overflow-hidden">
+        <!-- Abstract background shape -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-white/5 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-brand-accent/20 blur-3xl"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 reveal">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-6">Ready to Discuss Your Challenge?</h2>
+            <p class="text-lg text-slate-300 mb-10 max-w-2xl mx-auto">
+                Connect directly with a senior advisor to discuss your technology architecture, AI strategy, or operational challenges in complete confidence.
+            </p>
+            
+            <div class="bg-white/10 backdrop-blur-md border border-white/20 p-8 rounded-sm inline-block text-left mb-8">
+                <div class="flex flex-col sm:flex-row sm:space-x-12 space-y-6 sm:space-y-0">
+                    <div class="flex items-center">
+                        <svg class="h-6 w-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <div>
+                            <span class="block text-xs text-slate-400 uppercase tracking-wider">Email Us</span>
+                            <a href="mailto:info@solalkabeer.in" class="text-white hover:text-brand-accent transition-colors font-medium">info@solalkabeer.in</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="h-6 w-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <div>
+                            <span class="block text-xs text-slate-400 uppercase tracking-wider">Call Us</span>
+                            <a href="tel:+917428811103" class="text-white hover:text-brand-accent transition-colors font-medium">+91 74288 11103</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex justify-center items-center text-slate-400">
+                <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                <span>Based in Gurgaon, India. Serving clients globally.</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-navy border-t border-white/10 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Col -->
+                <div class="lg:col-span-1">
+                    <a href="#" class="text-xl font-bold tracking-tight text-white block mb-4 uppercase">
+                        SOL AL KABEER
+                    </a>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        Independent, vendor-neutral technology advisory empowering senior business and technology leaders to align architecture with strategic priorities.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#who-we-are" class="text-sm text-slate-400 hover:text-white transition-colors">Who We Are</a></li>
+                        <li><a href="#methodology" class="text-sm text-slate-400 hover:text-white transition-colors">Our Methodology</a></li>
+                        <li><a href="/insights" class="text-sm text-slate-400 hover:text-white transition-colors">Insights & News</a></li>
+                        <li><a href="#contact" class="text-sm text-slate-400 hover:text-white transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Expertise</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#what-we-do" class="text-sm text-slate-400 hover:text-white transition-colors">AI & GenAI Strategy</a></li>
+                        <li><a href="#what-we-do" class="text-sm text-slate-400 hover:text-white transition-colors">Enterprise Architecture</a></li>
+                        <li><a href="#what-we-do" class="text-sm text-slate-400 hover:text-white transition-colors">Customer Experience</a></li>
+                        <li><a href="#industries" class="text-sm text-slate-400 hover:text-white transition-colors">Industry Solutions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Connect</h4>
+                    <ul class="space-y-3">
+                        <li class="text-sm text-slate-400">Gurgaon, India</li>
+                        <li><a href="mailto:info@solalkabeer.in" class="text-sm text-slate-400 hover:text-white transition-colors">info@solalkabeer.in</a></li>
+                        <li><a href="tel:+917428811103" class="text-sm text-slate-400 hover:text-white transition-colors">+91 74288 11103</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-slate-500 mb-4 md:mb-0">
+                    &copy; 2026 SOL AL KABEER. All rights reserved. (solalkabeer.in)
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-slate-500 hover:text-white transition-colors text-sm">Privacy Policy</a>
+                    <a href="#" class="text-slate-500 hover:text-white transition-colors text-sm">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Logic handles menus and scroll reveals -->
+    <script src="/index.js"></script>
+</body>
+</html>

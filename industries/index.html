@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industries | SOL AL KABEER</title>
+    <meta name="description" content="Industry advisory for banking, telecom, technology, healthcare, retail, and the public sector.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/index.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            navy: '#0f172a',
+                            slate: '#334155',
+                            light: '#f8fafc',
+                            accent: '#2563eb',
+                            accentHover: '#1d4ed8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-slate-800 bg-white antialiased selection:bg-brand-accent selection:text-white">
+
+<header id="main-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white border-b border-gray-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="flex justify-between items-center h-24">
+            <div class="flex-shrink-0 flex items-center z-50">
+                <a href="/" class="flex items-center gap-3 transition-opacity hover:opacity-90">
+                    <div class="bg-white p-1 rounded-md flex items-center justify-center">
+                        <img src="https://solalkabeer.in/assets/images/sal-logo-final-20261010.png" alt="SOL AL KABEER Logo" class="h-12 w-auto object-contain" onerror="this.onerror=null; this.src='https://placehold.co/150x50/ffffff/0f172a?text=SOL+AL+KABEER&font=montserrat';">
+                    </div>
+                    <span class="text-xl font-bold tracking-tight text-slate-900 hidden md:block uppercase">SOL AL KABEER</span>
+                </a>
+            </div>
+            
+            <nav class="hidden lg:flex items-center space-x-2">
+                <a href="/services" class="px-4 py-2 text-sm font-bold text-slate-700 hover:text-blue-800 transition-colors">Services</a>
+                <a href="/industries" class="px-4 py-2 text-sm font-bold text-blue-800 transition-colors">Industries</a>
+                <a href="/" class="px-4 py-2 text-sm font-bold text-slate-700 hover:text-blue-800 transition-colors">Who We Are</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center z-50">
+                <a href="/contact" class="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold rounded-full text-white bg-blue-800 hover:bg-blue-900 transition-all duration-300 shadow-sm hover:shadow-md">Talk to an Advisor</a>
+            </div>
+
+            <div class="flex items-center lg:hidden z-50">
+                <button type="button" id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-slate-700 hover:text-blue-800 hover:bg-slate-100 focus:outline-none transition-colors" aria-expanded="false">
+                    <svg id="icon-menu" class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+                    <svg id="icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-100 absolute top-[96px] left-0 w-full shadow-lg h-[calc(100vh-96px)] overflow-y-auto">
+        <div class="px-4 pt-2 pb-8 space-y-1">
+            <a href="/" class="block px-3 py-4 text-base font-bold text-slate-900 border-b border-gray-100 hover:text-blue-800">Home</a>
+            <a href="/services" class="block px-3 py-4 text-base font-bold text-slate-900 border-b border-gray-100 hover:text-blue-800">Services</a>
+            <a href="/industries" class="block px-3 py-4 text-base font-bold text-blue-800 border-b border-gray-100">Industries</a>
+        </div>
+    </div>
+</header>
+
+<main class="pt-24 min-h-screen flex flex-col">
+    <section class="bg-brand-navy relative overflow-hidden py-20 lg:py-28">
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-white/5 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-brand-accent/20 blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center reveal">
+            <span class="text-cyan-400 font-bold tracking-wider uppercase text-xs mb-4 block">Areas of Expertise</span>
+            <h1 class="text-4xl sm:text-5xl font-bold text-white tracking-tight mb-6">Tailored Advisory for Complex Environments</h1>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
+                Industry guidance for organizations where architecture, customer experience, and operating constraints have to move together.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-20 bg-brand-light flex-grow border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="dynamic-industries-listing" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="col-span-full text-center py-10 text-slate-500 animate-pulse">Loading industries...</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-brand-navy pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+            <div class="lg:col-span-1">
+                <a href="/" class="text-xl font-bold tracking-tight text-white block mb-4 uppercase">SOL AL KABEER</a>
+                <p class="text-sm text-slate-400 leading-relaxed">Independent technology advisory empowering leaders.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Company</h4>
+                <ul class="space-y-3">
+                    <li><a href="/" class="text-sm text-slate-400 hover:text-white transition-colors">Who We Are</a></li>
+                    <li><a href="/contact" class="text-sm text-slate-400 hover:text-white transition-colors">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-white/10 pt-8 flex justify-between items-center">
+            <p class="text-sm text-slate-500">&copy; 2026 SOL AL KABEER. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,419 @@
+{
+  "services": [
+    {
+      "id": "ai-genai-strategy",
+      "serviceName": "AI & GenAI Strategy",
+      "slug": "ai-genai-strategy",
+      "image": "https://images.unsplash.com/photo-1791635709337-54f1634dc179?q=80&w=1331&auto=format&fit=crop",
+      "tagline": "Unlock business value with intelligent automation.",
+      "heroDescription": "Navigate the complexity of Artificial Intelligence. We help you identify high-value use cases, mitigate risks, and establish scalable AI architectures aligned with business goals.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From AI experimentation to enterprise scale.",
+      "practiceDescription": "SOL AL KABEER helps organizations move beyond proof-of-concepts to deploy responsible, scalable, and secure AI solutions that drive measurable business outcomes.",
+      "practiceDetails": "Our approach focuses on data readiness, technology selection, ethical AI governance, and seamless integration with your existing enterprise architecture.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "AI Advisory Capabilities",
+      "whatWeCoverPoints": [
+        {
+          "title": "AI Readiness Assessment",
+          "description": "Evaluate data infrastructure, security posture, and organizational readiness for AI adoption."
+        },
+        {
+          "title": "Use Case Prioritization",
+          "description": "Identify and rank AI opportunities based on business impact and technical feasibility."
+        },
+        {
+          "title": "GenAI Architecture Design",
+          "description": "Design secure, scalable LLM architectures, RAG pipelines, and vector databases."
+        },
+        {
+          "title": "AI Governance & Ethics",
+          "description": "Establish frameworks for data privacy, model bias, security, and regulatory compliance."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Ready to scale your AI initiatives?",
+      "ctaDescription": "Share your AI ambitions, data challenges, or innovation goals with SOL AL KABEER.",
+      "ctaButtonText": "Talk to an AI Advisor",
+      "isActive": true
+    },
+    {
+      "id": "enterprise-architecture",
+      "serviceName": "Enterprise Architecture",
+      "slug": "enterprise-architecture",
+      "image": "https://images.unsplash.com/photo-1791635756438-2d31bc9537bc?q=80&w=1331&auto=format&fit=crop",
+      "tagline": "Build a scalable enterprise foundation.",
+      "heroDescription": "Aligning business strategy, technology and architecture to build a scalable enterprise foundation.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From technology complexity to a connected enterprise.",
+      "practiceDescription": "SOL AL KABEER helps organizations assess their technology landscape, define target-state architecture and create practical modernization roadmaps aligned to business priorities.",
+      "practiceDetails": "The focus is on creating a connected architecture foundation across business capabilities, applications, data, integration, cloud and emerging technologies.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "Enterprise Architecture Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Enterprise Architecture Strategy",
+          "description": "Align architecture with business strategy, priorities and transformation objectives."
+        },
+        {
+          "title": "Current-State Assessment",
+          "description": "Assess applications, platforms, integrations, infrastructure and technology capabilities."
+        },
+        {
+          "title": "Target-State Architecture",
+          "description": "Define scalable target architectures aligned to future business requirements."
+        },
+        {
+          "title": "Technology Modernization",
+          "description": "Identify modernization opportunities and establish practical transformation priorities."
+        },
+        {
+          "title": "Integration & Platform Architecture",
+          "description": "Design integration patterns and technology foundations that connect the enterprise."
+        },
+        {
+          "title": "Architecture Roadmap",
+          "description": "Translate architectural priorities into a phased, executable modernization roadmap."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Have an architecture challenge you're exploring?",
+      "ctaDescription": "Share your technology challenge, modernization priority or architecture objective with SOL AL KABEER.",
+      "ctaButtonText": "Start an Executive Conversation",
+      "isActive": true
+    },
+    {
+      "id": "customer-experience",
+      "serviceName": "Customer Experience",
+      "slug": "customer-experience",
+      "image": "https://images.unsplash.com/photo-1791635926709-79244a8af560?q=80&w=1331&auto=format&fit=crop",
+      "tagline": "Transform complex digital journeys.",
+      "heroDescription": "We orchestrate data, systems, and processes to deliver seamless, engaging customer experiences across all physical and digital touchpoints.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "Elevating touchpoints into unified experiences.",
+      "practiceDescription": "SOL AL KABEER modernizes customer-facing platforms by breaking down data silos and redesigning the underlying architecture that powers the customer journey.",
+      "practiceDetails": "We focus on composable commerce, CRM integration, personalized digital touchpoints, and seamless omnichannel orchestration.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "CX & Digital Experience",
+      "whatWeCoverPoints": [
+        {
+          "title": "Omnichannel Orchestration",
+          "description": "Design architectures that unify customer data across web, mobile, retail, and support channels."
+        },
+        {
+          "title": "Composable Architecture",
+          "description": "Transition from monolithic systems to headless, API-first commerce and CMS platforms."
+        },
+        {
+          "title": "Customer Data Platforms (CDP)",
+          "description": "Implement unified data models to enable real-time personalization and analytics."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Looking to elevate your digital experience?",
+      "ctaDescription": "Discuss your CX vision, integration challenges, or modernization goals with our team.",
+      "ctaButtonText": "Connect with a CX Expert",
+      "isActive": true
+    },
+    {
+      "id": "contact-center-transformation",
+      "serviceName": "Contact Center Transformation",
+      "slug": "contact-center-transformation",
+      "image": "https://images.unsplash.com/photo-1791639223222-343e0e2d3d44?q=80&w=1331&auto=format&fit=crop",
+      "tagline": "Modernize customer service with intelligent platforms.",
+      "heroDescription": "Contact centers carry the weight of customer trust. SOL AL KABEER helps leaders redesign the operating model, platforms, and journeys behind assisted service.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From fragmented service desks to a connected care operation.",
+      "practiceDescription": "SOL AL KABEER advises organizations on how assisted service, digital channels, and workforce operations should work as one contact-center system.",
+      "practiceDetails": "The focus is a practical target state for platforms, routing, knowledge, and the measures that show whether service is actually improving.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "Contact Center Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Operating Model",
+          "description": "Clarify how digital, assisted, and specialist service should share work and accountability."
+        },
+        {
+          "title": "Platform Direction",
+          "description": "Assess current contact-center platforms and define a modernization path the business can run."
+        },
+        {
+          "title": "Journey Design",
+          "description": "Reconnect high-volume journeys so customers are not passed between disconnected systems."
+        },
+        {
+          "title": "Workforce and Knowledge",
+          "description": "Set the data, knowledge, and tooling foundations advisors need to resolve issues once."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Rethinking how service is delivered?",
+      "ctaDescription": "Share your contact-center, service, or modernization priority with SOL AL KABEER.",
+      "ctaButtonText": "Talk to a Service Advisor",
+      "isActive": true
+    },
+    {
+      "id": "ccaas-transformation",
+      "serviceName": "CCaaS Transformation",
+      "slug": "ccaas-transformation",
+      "image": "https://images.unsplash.com/photo-1791639545095-d59ad76366cc?q=80&w=1331&auto=format&fit=crop",
+      "tagline": "Migrate to scalable cloud contact center solutions.",
+      "heroDescription": "Moving to contact center as a service is an architecture and operating decision, not only a platform purchase. SOL AL KABEER helps leaders make that move with a clear target state.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From a legacy estate to a cloud contact center.",
+      "practiceDescription": "SOL AL KABEER helps organizations decide what a CCaaS migration should change across channels, integrations, data, and day-to-day operations.",
+      "practiceDetails": "Advisory covers vendor-neutral platform direction, integration with CRM and core systems, and a phased path that keeps service available during the move.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "CCaaS Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Migration Strategy",
+          "description": "Define why, when, and how the contact center should move to a cloud platform."
+        },
+        {
+          "title": "Integration Architecture",
+          "description": "Connect voice, digital, CRM, and core systems without recreating yesterday's silos."
+        },
+        {
+          "title": "Channel Design",
+          "description": "Set how voice, chat, messaging, and self-service share routing and customer context."
+        },
+        {
+          "title": "Transition Roadmap",
+          "description": "Sequence the move so service levels hold while platforms and teams change."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Planning a move to CCaaS?",
+      "ctaDescription": "Discuss your platform, integration, or migration priority with SOL AL KABEER.",
+      "ctaButtonText": "Talk to a CCaaS Advisor",
+      "isActive": true
+    },
+{
+  "id": "digital-transformation",
+  "serviceName": "Digital Transformation",
+  "slug": "digital-transformation",
+  "image": "https://images.unsplash.com/photo-1791639364856-40dea73ec7a4?q=80&w=1170&auto=format&fit=crop",
+  "tagline": "Transform business operations through technology, data, and intelligent automation.",
+  "heroDescription": "Digital transformation creates value when technology, people, and business strategy move in the same direction. SOL AL KABEER helps leaders modernize operations, improve decision-making, and build a technology foundation for sustainable growth.",
+  "practiceLabel": "THE PRACTICE",
+  "practiceTitle": "From traditional operations to digitally enabled business.",
+  "practiceDescription": "SOL AL KABEER helps organizations identify digital opportunities, modernize existing systems, and redesign business processes to improve efficiency, agility, and customer experience.",
+  "practiceDetails": "The work covers digital strategy, technology assessment, process automation, data integration, and organizational change, with a focus on measurable business outcomes and long-term scalability.",
+  "whatWeCoverLabel": "WHAT WE COVER",
+  "whatWeCoverTitle": "Digital Transformation Advisory",
+  "whatWeCoverPoints": [
+    {
+      "title": "Digital Strategy",
+      "description": "Define a clear transformation roadmap aligned with business objectives, priorities, and long-term growth."
+    },
+    {
+      "title": "Process Modernization",
+      "description": "Streamline manual workflows and modernize business processes using digital tools and automation."
+    },
+    {
+      "title": "Technology Integration",
+      "description": "Connect existing systems, platforms, and data to create a more unified and efficient digital ecosystem."
+    },
+    {
+      "title": "Change and Innovation",
+      "description": "Enable teams to adopt new technologies, improve collaboration, and build capabilities for continuous innovation."
+    }
+  ],
+  "ctaLabel": "START YOUR TRANSFORMATION",
+  "ctaTitle": "Ready to move your business forward?",
+  "ctaDescription": "Share your business challenges, modernization goals, or digital ambitions with SOL AL KABEER.",
+  "ctaButtonText": "Talk to a Digital Advisor",
+  "isActive": true
+}
+  ],
+
+
+  "industries": [
+    {
+      "id": "banking-insurance",
+      "industryName": "Banking & Insurance",
+      "slug": "banking-insurance",
+      "image": "https://images.unsplash.com/photo-1791640513984-a64edf525bce?q=80&w=2070&auto=format&fit=crop",
+      "tagline": "Architecture and customer experience in regulated environments.",
+      "heroDescription": "Banks and insurers need technology decisions that stand up to regulation, security review, and customer expectation at the same time. SOL AL KABEER helps leadership teams set that direction.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From compliance pressure to a trusted digital enterprise.",
+      "practiceDescription": "SOL AL KABEER advises banking and insurance leaders on architecture, AI adoption, and customer experience where security, auditability, and resilience are not optional.",
+      "practiceDetails": "The work connects core platforms, data, channels, and operating controls so modernization improves service without weakening the control environment.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "Banking & Insurance Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Regulated Architecture",
+          "description": "Shape target architectures that satisfy security, privacy, and supervisory expectations."
+        },
+        {
+          "title": "Core Modernization",
+          "description": "Set practical priorities for core, policy, and channel platforms without a big-bang rewrite."
+        },
+        {
+          "title": "AI in Financial Services",
+          "description": "Identify governed AI use cases for risk, service, and operations."
+        },
+        {
+          "title": "Customer Trust",
+          "description": "Design journeys that stay secure while reducing friction for customers and advisors."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Planning a regulated modernization?",
+      "ctaDescription": "Share your architecture, AI, or customer-experience priority with SOL AL KABEER.",
+      "ctaButtonText": "Talk to an Industry Advisor",
+      "isActive": true
+    },
+    {
+      "id": "telecommunications",
+      "industryName": "Telecommunications",
+      "slug": "telecommunications",
+      "image": "https://images.unsplash.com/photo-1791640550977-f3fb97fd69fa?q=80&w=1170&auto=format&fit=crop",
+      "tagline": "Enterprise architecture and experience modernization for network businesses.",
+      "heroDescription": "Telecom operators sit between complex networks, legacy BSS/OSS, and rising customer expectations. We help leaders modernize the architecture that connects them.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From network complexity to a connected customer enterprise.",
+      "practiceDescription": "SOL AL KABEER helps telecommunications organizations align enterprise architecture, contact-center operations, and customer experience with commercial priorities.",
+      "practiceDetails": "The focus is a practical roadmap across channels, platforms, data, and the operating model that supports them.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "Telecommunications Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Experience Modernization",
+          "description": "Reconnect digital, retail, and care channels around a clearer customer journey."
+        },
+        {
+          "title": "BSS and Platform Direction",
+          "description": "Assess billing, CRM, and integration platforms and set a realistic target state."
+        },
+        {
+          "title": "Contact Center Transformation",
+          "description": "Define how assisted and digital service should work together at scale."
+        },
+        {
+          "title": "Architecture Roadmap",
+          "description": "Turn technology priorities into a phased modernization plan the business can fund."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Modernizing a telecom technology estate?",
+      "ctaDescription": "Discuss your architecture, care, or customer-experience challenge with SOL AL KABEER.",
+      "ctaButtonText": "Talk to an Industry Advisor",
+      "isActive": true
+    },
+    {
+      "id": "technology-software",
+      "industryName": "Technology & Software",
+      "slug": "technology-software",
+      "image": "https://images.unsplash.com/photo-1791640636695-9bffc4a0e85c?q=80&w=1170&auto=format&fit=crop",
+      "tagline": "Platform strategy and AI adoption for technology companies.",
+      "heroDescription": "Software and technology businesses need architecture that can scale products, platforms, and AI without losing delivery speed.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From product sprawl to a scalable platform.",
+      "practiceDescription": "SOL AL KABEER helps technology and software leaders set platform strategy, clarify architecture boundaries, and adopt AI with an operating model that can sustain it.",
+      "practiceDetails": "Advisory stays close to how products are built: capabilities, data, integration, and the decisions that keep teams moving.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "Technology & Software Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Platform Strategy",
+          "description": "Decide what should be a shared platform and what should stay in the product."
+        },
+        {
+          "title": "Scalable Architecture",
+          "description": "Define target architectures for growth, integration, and operational reliability."
+        },
+        {
+          "title": "AI Adoption Roadmaps",
+          "description": "Move from isolated experiments to AI capabilities the product organization can run."
+        },
+        {
+          "title": "Delivery Alignment",
+          "description": "Connect architecture choices to how teams plan, fund, and ship."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Shaping a platform or AI roadmap?",
+      "ctaDescription": "Share your product, platform, or architecture priority with SOL AL KABEER.",
+      "ctaButtonText": "Talk to an Industry Advisor",
+      "isActive": true
+    },
+    {
+      "id": "healthcare",
+      "industryName": "Healthcare",
+      "slug": "healthcare",
+      "image": "https://images.unsplash.com/photo-1791640804570-ccd3588a2c73?q=80&w=1170&auto=format&fit=crop",
+      "tagline": "Technology decisions where trust and scale matter.",
+      "heroDescription": "Healthcare organizations need architecture and experience design that protect trust while improving how care, operations, and data work together.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From fragmented systems to a trusted care platform.",
+      "practiceDescription": "SOL AL KABEER advises healthcare leaders on technology direction where clinical trust, privacy, and operational scale have to move together.",
+      "practiceDetails": "The work focuses on practical modernization of clinical and operational platforms, data foundations, and the experiences patients and staff actually use.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "Healthcare Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Care Platform Direction",
+          "description": "Assess clinical, operational, and digital platforms and define a coherent target state."
+        },
+        {
+          "title": "Data and Interoperability",
+          "description": "Set the integration and data foundations needed for safer, more connected care."
+        },
+        {
+          "title": "Trust and Governance",
+          "description": "Frame privacy, security, and AI governance for sensitive health information."
+        },
+        {
+          "title": "Experience of Care",
+          "description": "Improve patient and workforce journeys without adding operational burden."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Navigating a healthcare technology decision?",
+      "ctaDescription": "Share your care, data, or modernization priority with SOL AL KABEER.",
+      "ctaButtonText": "Talk to an Industry Advisor",
+      "isActive": true
+    },
+    {
+      "id": "retail-manufacturing",
+      "industryName": "Retail & Manufacturing",
+      "slug": "retail-manufacturing",
+      "image": "https://images.unsplash.com/photo-1791640894969-0101f7897766?q=80&w=1170&auto=format&fit=crop",
+      "tagline": "Digital operations and connected customer journeys.",
+      "heroDescription": "Retail and manufacturing leaders need architecture that joins commerce, operations, and the supply chain into one workable system.",
+      "practiceLabel": "THE PRACTICE",
+      "practiceTitle": "From channel silos to connected operations.",
+      "practiceDescription": "SOL AL KABEER helps retail and manufacturing organizations set priorities for omnichannel experience, digital operations, and the platforms underneath them.",
+      "practiceDetails": "Advisory links customer journeys with inventory, fulfillment, and the integration patterns that keep them reliable.",
+      "whatWeCoverLabel": "WHAT WE COVER",
+      "whatWeCoverTitle": "Retail & Manufacturing Advisory",
+      "whatWeCoverPoints": [
+        {
+          "title": "Omnichannel Journeys",
+          "description": "Connect store, digital, and service experiences around a single operating view."
+        },
+        {
+          "title": "Commerce Architecture",
+          "description": "Define a practical path from monolithic commerce to a more composable stack."
+        },
+        {
+          "title": "Operations and Supply",
+          "description": "Identify where architecture should improve visibility, fulfillment, and planning."
+        },
+        {
+          "title": "AI in Operations",
+          "description": "Prioritize AI uses that improve service, forecasting, or productivity."
+        }
+      ],
+      "ctaLabel": "START THE CONVERSATION",
+      "ctaTitle": "Connecting commerce and operations?",
+      "ctaDescription": "Discuss your customer, platform, or supply-chain priority with SOL AL KABEER.",
+      "ctaButtonText": "Talk to an Industry Advisor",
+      "isActive": true
+    }
+  ]
+}
