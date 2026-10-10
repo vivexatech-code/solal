@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (serviceDetailContainer) {
                     const currentSlug = readSlug();
-                    if (currentSlug === 'services' || currentSlug === 'industries') {
+                    if (currentSlug === 'services' || currentSlug === 'industries' || currentSlug === 'contact' || currentSlug === 'insights') {
                         window.location.href = '/' + currentSlug;
                         return;
                     }

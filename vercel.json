@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/services", "destination": "/services/index.html" },
+    { "source": "/contact", "destination": "/contact/index.html" },
+    { "source": "/insights", "destination": "/insights/index.html" },
+    { "source": "/industries", "destination": "/industries/index.html" },
+    { "source": "/banking-insurance", "destination": "/industry/index.html" },
+    { "source": "/telecommunications", "destination": "/industry/index.html" },
+    { "source": "/technology-software", "destination": "/industry/index.html" },
+    { "source": "/healthcare", "destination": "/industry/index.html" },
+    { "source": "/retail-manufacturing", "destination": "/industry/index.html" },
+    { "source": "/travel-energy-government", "destination": "/industry/index.html" },
+    { "source": "/:slug([a-z0-9-]+)", "destination": "/service/index.html" }
+  ]
+}
